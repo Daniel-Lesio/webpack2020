@@ -32,10 +32,7 @@ module.exports = {
                 test : /\.scss$/,
                 
                 use : [
-                    // "style-loader",
-                    // "css-loader",
-                    // "postcss-loader" ,
-                    // "sass-loader"
+                    {loader : "style-loader"},
                     {loader : 'css-loader'},
                     {loader : 'postcss-loader'},
                     {loader: "sass-loader"}
