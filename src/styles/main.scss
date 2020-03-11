@@ -3,3 +3,16 @@ body{
 background: $bg;
 color: #ddd;
 }
+
+.brand {
+    transform: perspective(1000px);
+}
+
+.classa{
+    background: pink;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
